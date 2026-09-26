@@ -1,0 +1,1787 @@
+[
+  {
+    "key": "lidtop",
+    "type": "pack",
+    "file": "models/pack-lidtop.stl",
+    "triangles": 12,
+    "bytes": 684,
+    "bounds": [
+      [
+        -219.83,
+        219.83
+      ],
+      [
+        220.7,
+        222.7
+      ],
+      [
+        -248.5625,
+        248.5625
+      ]
+    ]
+  },
+  {
+    "key": "lidlocating",
+    "type": "pack",
+    "file": "models/pack-lidlocating.stl",
+    "triangles": 2304,
+    "bytes": 115284,
+    "bounds": [
+      [
+        -219.83,
+        219.83
+      ],
+      [
+        195.7,
+        220.7
+      ],
+      [
+        -248.5625,
+        248.5625
+      ]
+    ]
+  },
+  {
+    "key": "lidbolts",
+    "type": "pack",
+    "file": "models/pack-lidbolts.stl",
+    "triangles": 3456,
+    "bytes": 172884,
+    "bounds": [
+      [
+        -225.83,
+        225.83
+      ],
+      [
+        203.7,
+        213.7
+      ],
+      [
+        -254.5625,
+        254.5625
+      ]
+    ]
+  },
+  {
+    "key": "lidrivnuts",
+    "type": "pack",
+    "file": "models/pack-lidrivnuts.stl",
+    "triangles": 6144,
+    "bytes": 307284,
+    "bounds": [
+      [
+        -217.33,
+        217.33
+      ],
+      [
+        203.7,
+        213.7
+      ],
+      [
+        -246.0625,
+        246.0625
+      ]
+    ]
+  },
+  {
+    "key": "imdstack",
+    "type": "pack",
+    "file": "models/pack-imdstack.stl",
+    "triangles": 8096,
+    "bytes": 404884,
+    "bounds": [
+      [
+        20,
+        80
+      ],
+      [
+        108.9,
+        157.9
+      ],
+      [
+        20,
+        160
+      ]
+    ]
+  },
+  {
+    "key": "equipmentbolts",
+    "type": "pack",
+    "file": "models/pack-equipmentbolts.stl",
+    "triangles": 6912,
+    "bytes": 345684,
+    "bounds": [
+      [
+        -110,
+        105.5
+      ],
+      [
+        88.4,
+        115.4
+      ],
+      [
+        -185.7,
+        212.75
+      ]
+    ]
+  },
+  {
+    "key": "captivenuts",
+    "type": "pack",
+    "file": "models/pack-captivenuts.stl",
+    "triangles": 4864,
+    "bytes": 243284,
+    "bounds": [
+      [
+        -110,
+        105.5
+      ],
+      [
+        88.4,
+        93.4
+      ],
+      [
+        -185.7,
+        212.75
+      ]
+    ]
+  },
+  {
+    "key": "packnegative",
+    "type": "pack",
+    "file": "models/pack-packnegative.stl",
+    "triangles": 572,
+    "bytes": 28684,
+    "bounds": [
+      [
+        90,
+        132
+      ],
+      [
+        118.9,
+        154.2
+      ],
+      [
+        -217.25,
+        -149.3
+      ]
+    ]
+  },
+  {
+    "key": "packrings",
+    "type": "pack",
+    "file": "models/pack-packrings.stl",
+    "triangles": 536,
+    "bytes": 26884,
+    "bounds": [
+      [
+        -142,
+        142
+      ],
+      [
+        115.9,
+        118.9
+      ],
+      [
+        -218.75,
+        218.75
+      ]
+    ]
+  },
+  {
+    "key": "packfasteners",
+    "type": "pack",
+    "file": "models/pack-packfasteners.stl",
+    "triangles": 1472,
+    "bytes": 73684,
+    "bounds": [
+      [
+        -128,
+        128
+      ],
+      [
+        102.9,
+        128.20000000000002
+      ],
+      [
+        -215.25,
+        215.25
+      ]
+    ]
+  },
+  {
+    "key": "packplugs",
+    "type": "pack",
+    "file": "models/pack-packplugs.stl",
+    "triangles": 76416,
+    "bytes": 3820884,
+    "bounds": [
+      [
+        -201.2000042128,
+        201.2000042128
+      ],
+      [
+        93.4,
+        128.65
+      ],
+      [
+        -222.750002556,
+        222.750002556
+      ]
+    ]
+  },
+  {
+    "key": "fixedshrink",
+    "type": "pack",
+    "file": "models/pack-fixedshrink.stl",
+    "triangles": 8877,
+    "bytes": 443934,
+    "bounds": [
+      [
+        -132,
+        193.83
+      ],
+      [
+        118.10000000000001,
+        155
+      ],
+      [
+        -217.25,
+        217.7118802153517
+      ]
+    ]
+  },
+  {
+    "key": "sensingmates",
+    "type": "pack",
+    "file": "models/pack-sensingmates.stl",
+    "triangles": 216,
+    "bytes": 10884,
+    "bounds": [
+      [
+        -114.17,
+        27.5
+      ],
+      [
+        103.5358,
+        154.39999999999998
+      ],
+      [
+        -196.6,
+        148.96045
+      ]
+    ]
+  },
+  {
+    "key": "deckbrackets",
+    "type": "pack",
+    "file": "models/pack-deckbrackets.stl",
+    "triangles": 2496,
+    "bytes": 124884,
+    "bounds": [
+      [
+        -214.33,
+        214.33
+      ],
+      [
+        95.4,
+        120
+      ],
+      [
+        -244.0625,
+        244.0625
+      ]
+    ]
+  },
+  {
+    "key": "deckbolts",
+    "type": "pack",
+    "file": "models/pack-deckbolts.stl",
+    "triangles": 5888,
+    "bytes": 294484,
+    "bounds": [
+      [
+        -222.33,
+        222.33
+      ],
+      [
+        105,
+        115
+      ],
+      [
+        -251.0625,
+        251.0625
+      ]
+    ]
+  },
+  {
+    "key": "equipmentmounts",
+    "type": "pack",
+    "file": "models/pack-equipmentmounts.stl",
+    "triangles": 1024,
+    "bytes": 51284,
+    "bounds": [
+      [
+        -109.5,
+        59.5
+      ],
+      [
+        95.4,
+        105.4
+      ],
+      [
+        -144.5037,
+        -25.496299999999998
+      ]
+    ]
+  },
+  {
+    "key": "airnuts",
+    "type": "pack",
+    "file": "models/pack-airnuts.stl",
+    "triangles": 192,
+    "bytes": 9684,
+    "bounds": [
+      [
+        39.194446500534866,
+        107.50555349946514
+      ],
+      [
+        155.8,
+        162.3
+      ],
+      [
+        -165.8,
+        213.75
+      ]
+    ]
+  },
+  {
+    "key": "airwashers",
+    "type": "pack",
+    "file": "models/pack-airwashers.stl",
+    "triangles": 1024,
+    "bytes": 51284,
+    "bounds": [
+      [
+        38.7,
+        108
+      ],
+      [
+        154.2,
+        155.79999999999998
+      ],
+      [
+        -167.3,
+        215.25
+      ]
+    ]
+  },
+  {
+    "key": "panelmountbolts",
+    "type": "pack",
+    "file": "models/pack-panelmountbolts.stl",
+    "triangles": 2592,
+    "bytes": 129684,
+    "bounds": [
+      [
+        209.03,
+        229.53
+      ],
+      [
+        106.69999999999999,
+        190.7
+      ],
+      [
+        6.8125,
+        90.8125
+      ]
+    ]
+  },
+  {
+    "key": "panelmountnuts",
+    "type": "pack",
+    "file": "models/pack-panelmountnuts.stl",
+    "triangles": 1824,
+    "bytes": 91284,
+    "bounds": [
+      [
+        209.33,
+        214.33
+      ],
+      [
+        106.69999999999999,
+        190.7
+      ],
+      [
+        6.8125,
+        90.8125
+      ]
+    ]
+  },
+  {
+    "key": "boxbase",
+    "type": "pack",
+    "file": "models/pack-boxbase.stl",
+    "triangles": 12,
+    "bytes": 684,
+    "bounds": [
+      [
+        -216.33,
+        216.33
+      ],
+      [
+        -119.2,
+        -115.2
+      ],
+      [
+        -245.0625,
+        245.0625
+      ]
+    ]
+  },
+  {
+    "key": "boxwalls",
+    "type": "pack",
+    "file": "models/pack-boxwalls.stl",
+    "triangles": 129194,
+    "bytes": 6459784,
+    "bounds": [
+      [
+        -216.33,
+        216.33
+      ],
+      [
+        -115.2,
+        220.7
+      ],
+      [
+        -245.0625,
+        245.0625
+      ]
+    ]
+  },
+  {
+    "key": "hvpanel",
+    "type": "pack",
+    "file": "models/pack-hvpanel.stl",
+    "triangles": 13046,
+    "bytes": 652384,
+    "bounds": [
+      [
+        174.63,
+        259.03000000000003
+      ],
+      [
+        104.89993460599999,
+        192.32871155799998
+      ],
+      [
+        -1.0874999999999986,
+        98.7125
+      ]
+    ]
+  },
+  {
+    "key": "mainfuse",
+    "type": "pack",
+    "file": "models/pack-mainfuse.stl",
+    "triangles": 1272,
+    "bytes": 63684,
+    "bounds": [
+      [
+        -94,
+        -2
+      ],
+      [
+        108.45,
+        138.45
+      ],
+      [
+        192.25,
+        222.25
+      ]
+    ]
+  },
+  {
+    "key": "fuselinks",
+    "type": "pack",
+    "file": "models/pack-fuselinks.stl",
+    "triangles": 1148,
+    "bytes": 57484,
+    "bounds": [
+      [
+        -132,
+        56.7
+      ],
+      [
+        118.9,
+        154.2
+      ],
+      [
+        197.25,
+        217.25
+      ]
+    ]
+  },
+  {
+    "key": "fusebolts",
+    "type": "pack",
+    "file": "models/pack-fusebolts.stl",
+    "triangles": 1472,
+    "bytes": 73684,
+    "bounds": [
+      [
+        -92,
+        -4
+      ],
+      [
+        110,
+        131.3
+      ],
+      [
+        199.25,
+        215.25
+      ]
+    ]
+  },
+  {
+    "key": "shrinkwrap",
+    "type": "pack",
+    "file": "models/pack-shrinkwrap.stl",
+    "triangles": 51248,
+    "bytes": 2562484,
+    "bounds": [
+      [
+        -169.3471547076359,
+        169.3471547076359
+      ],
+      [
+        102.10000000000001,
+        129.4464438407949
+      ],
+      [
+        -197.79695353826807,
+        197.79695353826807
+      ]
+    ]
+  },
+  {
+    "key": "hvoutput",
+    "type": "pack",
+    "file": "models/pack-hvoutput.stl",
+    "triangles": 1096,
+    "bytes": 54884,
+    "bounds": [
+      [
+        63.3,
+        193.83
+      ],
+      [
+        151.2,
+        154.2
+      ],
+      [
+        -142.7,
+        217.25
+      ]
+    ]
+  },
+  {
+    "key": "hvoutputbolts",
+    "type": "pack",
+    "file": "models/pack-hvoutputbolts.stl",
+    "triangles": 864,
+    "bytes": 43284,
+    "bounds": [
+      [
+        175.83,
+        191.83
+      ],
+      [
+        147.2,
+        160.5
+      ],
+      [
+        22.8125,
+        74.8125
+      ]
+    ]
+  },
+  {
+    "key": "partitions",
+    "type": "pack",
+    "file": "models/pack-partitions.stl",
+    "triangles": 48,
+    "bytes": 2484,
+    "bounds": [
+      [
+        -214.33,
+        214.33
+      ],
+      [
+        -115.19999999999999,
+        93.4
+      ],
+      [
+        -147.4375,
+        147.4375
+      ]
+    ]
+  },
+  {
+    "key": "floor2",
+    "type": "pack",
+    "file": "models/pack-floor2.stl",
+    "triangles": 16768,
+    "bytes": 838484,
+    "bounds": [
+      [
+        -213.83000000000004,
+        213.83000000000004
+      ],
+      [
+        93.4,
+        95.4
+      ],
+      [
+        -242.5625,
+        242.5625
+      ]
+    ]
+  },
+  {
+    "key": "bms",
+    "type": "pack",
+    "file": "models/pack-bms.stl",
+    "triangles": 133066,
+    "bytes": 6653384,
+    "bounds": [
+      [
+        -110.29663,
+        60.29662999999999
+      ],
+      [
+        105.4,
+        177.98812
+      ],
+      [
+        -176.63078000000002,
+        5.805000000000007
+      ]
+    ]
+  },
+  {
+    "key": "thermistor",
+    "type": "pack",
+    "file": "models/pack-thermistor.stl",
+    "triangles": 46428,
+    "bytes": 2321484,
+    "bounds": [
+      [
+        -96.275,
+        -13.725000000000001
+      ],
+      [
+        95.39999999999999,
+        124.5338
+      ],
+      [
+        14.275000000000006,
+        185.725
+      ]
+    ]
+  },
+  {
+    "key": "imd",
+    "type": "pack",
+    "file": "models/pack-imd.stl",
+    "triangles": 14180,
+    "bytes": 709084,
+    "bounds": [
+      [
+        20,
+        80
+      ],
+      [
+        107.849998,
+        124.39999800000001
+      ],
+      [
+        20.000004,
+        161.000004
+      ]
+    ]
+  },
+  {
+    "key": "airs",
+    "type": "pack",
+    "file": "models/pack-airs.stl",
+    "triangles": 25684,
+    "bytes": 1284284,
+    "bounds": [
+      [
+        19.821510000000004,
+        132.09904
+      ],
+      [
+        95.4,
+        168.4
+      ],
+      [
+        -186.17849,
+        239.5033
+      ]
+    ]
+  },
+  {
+    "key": "powerplugs",
+    "type": "pack",
+    "file": "models/pack-powerplugs.stl",
+    "triangles": 305664,
+    "bytes": 15283284,
+    "bounds": [
+      [
+        -201.2000042128,
+        201.2000042128
+      ],
+      [
+        93.4,
+        128.65
+      ],
+      [
+        -198.749997444,
+        198.749997444
+      ]
+    ]
+  },
+  {
+    "key": "powercables",
+    "type": "pack",
+    "file": "models/pack-powercables.stl",
+    "triangles": 2304,
+    "bytes": 115284,
+    "bounds": [
+      [
+        -140,
+        140
+      ],
+      [
+        118.9,
+        121.9
+      ],
+      [
+        -195.25,
+        195.25
+      ]
+    ]
+  },
+  {
+    "key": "ringadapters",
+    "type": "pack",
+    "file": "models/pack-ringadapters.stl",
+    "triangles": 2144,
+    "bytes": 107284,
+    "bounds": [
+      [
+        -142,
+        142
+      ],
+      [
+        115.9,
+        118.9
+      ],
+      [
+        -194.75,
+        194.75
+      ]
+    ]
+  },
+  {
+    "key": "hvfasteners",
+    "type": "pack",
+    "file": "models/pack-hvfasteners.stl",
+    "triangles": 5888,
+    "bytes": 294484,
+    "bounds": [
+      [
+        -138,
+        138
+      ],
+      [
+        102.9,
+        128.20000000000002
+      ],
+      [
+        -191.25,
+        191.25
+      ]
+    ]
+  },
+  {
+    "key": "imdmounts",
+    "type": "pack",
+    "file": "models/pack-imdmounts.stl",
+    "triangles": 1536,
+    "bytes": 76884,
+    "bounds": [
+      [
+        21,
+        79
+      ],
+      [
+        95.4,
+        109.4
+      ],
+      [
+        21,
+        159
+      ]
+    ]
+  },
+  {
+    "key": "coolingInlet",
+    "type": "pack",
+    "file": "models/pack-coolingInlet.stl",
+    "triangles": 98832,
+    "bytes": 4941684,
+    "bounds": [
+      [
+        216.33,
+        231.33
+      ],
+      [
+        -99.88396,
+        59.483959999999996
+      ],
+      [
+        -42.25,
+        42.25
+      ]
+    ]
+  },
+  {
+    "key": "coolingFasteners",
+    "type": "pack",
+    "file": "models/pack-coolingFasteners.stl",
+    "triangles": 1920,
+    "bytes": 96084,
+    "bounds": [
+      [
+        221.108,
+        238.108
+      ],
+      [
+        -99.32896000000001,
+        58.928960000000004
+      ],
+      [
+        -41.695,
+        41.695
+      ]
+    ]
+  },
+  {
+    "key": "coolingSeals",
+    "type": "pack",
+    "file": "models/pack-coolingSeals.stl",
+    "triangles": 14256,
+    "bytes": 712884,
+    "bounds": [
+      [
+        214.33,
+        228.33
+      ],
+      [
+        -99.88396,
+        59.483959999999996
+      ],
+      [
+        -42.25,
+        42.25
+      ]
+    ]
+  },
+  {
+    "key": "fans",
+    "type": "A",
+    "file": "models/A-fans.stl",
+    "triangles": 11786,
+    "bytes": 589384,
+    "bounds": [
+      [
+        -202,
+        -174
+      ],
+      [
+        -56.3,
+        51.3
+      ],
+      [
+        -20,
+        20
+      ]
+    ]
+  },
+  {
+    "key": "fans",
+    "type": "B",
+    "file": "models/B-fans.stl",
+    "triangles": 11786,
+    "bytes": 589384,
+    "bounds": [
+      [
+        174,
+        202
+      ],
+      [
+        -56.3,
+        51.3
+      ],
+      [
+        -20,
+        20
+      ]
+    ]
+  },
+  {
+    "key": "fanmount",
+    "type": "A",
+    "file": "models/A-fanmount.stl",
+    "triangles": 9112,
+    "bytes": 455684,
+    "bounds": [
+      [
+        -211.5,
+        -168.5
+      ],
+      [
+        -74,
+        85
+      ],
+      [
+        -38.25,
+        46.425000000000004
+      ]
+    ]
+  },
+  {
+    "key": "fanmount",
+    "type": "B",
+    "file": "models/B-fanmount.stl",
+    "triangles": 9112,
+    "bytes": 455684,
+    "bounds": [
+      [
+        168.5,
+        211.5
+      ],
+      [
+        -74,
+        85
+      ],
+      [
+        -38.25,
+        46.425000000000004
+      ]
+    ]
+  },
+  {
+    "key": "sensing",
+    "type": "A",
+    "file": "models/A-sensing.stl",
+    "triangles": 576,
+    "bytes": 28884,
+    "bounds": [
+      [
+        53.25,
+        106.75
+      ],
+      [
+        92.60000000000001,
+        101.60000000000001
+      ],
+      [
+        -6.6,
+        14
+      ]
+    ]
+  },
+  {
+    "key": "sensing",
+    "type": "B",
+    "file": "models/B-sensing.stl",
+    "triangles": 576,
+    "bytes": 28884,
+    "bounds": [
+      [
+        -106.75,
+        -53.25
+      ],
+      [
+        92.60000000000001,
+        101.60000000000001
+      ],
+      [
+        -14,
+        6.6
+      ]
+    ]
+  },
+  {
+    "key": "topinserts",
+    "type": "A",
+    "file": "models/A-topinserts.stl",
+    "triangles": 2048,
+    "bytes": 102484,
+    "bounds": [
+      [
+        -140.9,
+        140.9
+      ],
+      [
+        86.00000000000001,
+        91.00000000000001
+      ],
+      [
+        -34.475,
+        34.475
+      ]
+    ]
+  },
+  {
+    "key": "topinserts",
+    "type": "B",
+    "file": "models/B-topinserts.stl",
+    "triangles": 2048,
+    "bytes": 102484,
+    "bounds": [
+      [
+        -140.9,
+        140.9
+      ],
+      [
+        86.00000000000001,
+        91.00000000000001
+      ],
+      [
+        -34.475,
+        34.475
+      ]
+    ]
+  },
+  {
+    "key": "topfasteners",
+    "type": "A",
+    "file": "models/A-topfasteners.stl",
+    "triangles": 1728,
+    "bytes": 86484,
+    "bounds": [
+      [
+        -142,
+        142
+      ],
+      [
+        85.10000000000001,
+        99.10000000000001
+      ],
+      [
+        -35.575,
+        35.575
+      ]
+    ]
+  },
+  {
+    "key": "topfasteners",
+    "type": "B",
+    "file": "models/B-topfasteners.stl",
+    "triangles": 1728,
+    "bytes": 86484,
+    "bounds": [
+      [
+        -142,
+        142
+      ],
+      [
+        85.10000000000001,
+        99.10000000000001
+      ],
+      [
+        -35.575,
+        35.575
+      ]
+    ]
+  },
+  {
+    "key": "cells",
+    "type": "A",
+    "file": "models/A-cells.stl",
+    "triangles": 32256,
+    "bytes": 1612884,
+    "bounds": [
+      [
+        -166.775,
+        166.775
+      ],
+      [
+        -70.775,
+        70.775
+      ],
+      [
+        -35.105000000000004,
+        35.105000000000004
+      ]
+    ]
+  },
+  {
+    "key": "cells",
+    "type": "B",
+    "file": "models/B-cells.stl",
+    "triangles": 32256,
+    "bytes": 1612884,
+    "bounds": [
+      [
+        -166.775,
+        166.775
+      ],
+      [
+        -70.775,
+        70.775
+      ],
+      [
+        -35.105000000000004,
+        35.105000000000004
+      ]
+    ]
+  },
+  {
+    "key": "holders",
+    "type": "A",
+    "file": "models/A-holders.stl",
+    "triangles": 96048,
+    "bytes": 4802484,
+    "bounds": [
+      [
+        -171,
+        171
+      ],
+      [
+        -91,
+        91.00000000000001
+      ],
+      [
+        -36.575,
+        36.575
+      ]
+    ]
+  },
+  {
+    "key": "holders",
+    "type": "B",
+    "file": "models/B-holders.stl",
+    "triangles": 96048,
+    "bytes": 4802484,
+    "bounds": [
+      [
+        -171,
+        171
+      ],
+      [
+        -91,
+        91.00000000000001
+      ],
+      [
+        -36.575,
+        36.575
+      ]
+    ]
+  },
+  {
+    "key": "bridges",
+    "type": "A",
+    "file": "models/A-bridges.stl",
+    "triangles": 7488,
+    "bytes": 374484,
+    "bounds": [
+      [
+        -165,
+        165
+      ],
+      [
+        -69,
+        69
+      ],
+      [
+        -37.175,
+        37.175
+      ]
+    ]
+  },
+  {
+    "key": "bridges",
+    "type": "B",
+    "file": "models/B-bridges.stl",
+    "triangles": 7488,
+    "bytes": 374484,
+    "bounds": [
+      [
+        -165,
+        165
+      ],
+      [
+        -69,
+        69
+      ],
+      [
+        -37.175,
+        37.175
+      ]
+    ]
+  },
+  {
+    "key": "terminals",
+    "type": "A",
+    "file": "models/A-terminals.stl",
+    "triangles": 1176,
+    "bytes": 58884,
+    "bounds": [
+      [
+        -202,
+        202
+      ],
+      [
+        -69,
+        80.60000000000002
+      ],
+      [
+        -37.175,
+        28
+      ]
+    ]
+  },
+  {
+    "key": "terminals",
+    "type": "B",
+    "file": "models/B-terminals.stl",
+    "triangles": 1176,
+    "bytes": 58884,
+    "bounds": [
+      [
+        -202,
+        202
+      ],
+      [
+        -69,
+        80.60000000000002
+      ],
+      [
+        -37.175,
+        28
+      ]
+    ]
+  },
+  {
+    "key": "pcb",
+    "type": "A",
+    "file": "models/A-pcb.stl",
+    "triangles": 3764,
+    "bytes": 188284,
+    "bounds": [
+      [
+        -210,
+        210
+      ],
+      [
+        91.00000000000001,
+        92.62500000000001
+      ],
+      [
+        -38.224999999999994,
+        38.224999999999994
+      ]
+    ]
+  },
+  {
+    "key": "pcb",
+    "type": "B",
+    "file": "models/B-pcb.stl",
+    "triangles": 3764,
+    "bytes": 188284,
+    "bounds": [
+      [
+        -210,
+        210
+      ],
+      [
+        91.00000000000001,
+        92.62500000000001
+      ],
+      [
+        -38.224999999999994,
+        38.224999999999994
+      ]
+    ]
+  },
+  {
+    "key": "insulator",
+    "type": "A",
+    "file": "models/A-insulator.stl",
+    "triangles": 660,
+    "bytes": 33084,
+    "bounds": [
+      [
+        -210,
+        210
+      ],
+      [
+        81.60000000000001,
+        83.60000000000001
+      ],
+      [
+        -38.224999999999994,
+        38.224999999999994
+      ]
+    ]
+  },
+  {
+    "key": "insulator",
+    "type": "B",
+    "file": "models/B-insulator.stl",
+    "triangles": 660,
+    "bytes": 33084,
+    "bounds": [
+      [
+        -210,
+        210
+      ],
+      [
+        81.60000000000001,
+        83.60000000000001
+      ],
+      [
+        -38.224999999999994,
+        38.224999999999994
+      ]
+    ]
+  },
+  {
+    "key": "pins",
+    "type": "A",
+    "file": "models/A-pins.stl",
+    "triangles": 76896,
+    "bytes": 3844884,
+    "bounds": [
+      [
+        -204.5,
+        204.5
+      ],
+      [
+        64.60000000000001,
+        131.60000000000002
+      ],
+      [
+        -28.5,
+        28.5
+      ]
+    ]
+  },
+  {
+    "key": "pins",
+    "type": "B",
+    "file": "models/B-pins.stl",
+    "triangles": 76896,
+    "bytes": 3844884,
+    "bounds": [
+      [
+        -204.5,
+        204.5
+      ],
+      [
+        64.60000000000001,
+        131.60000000000002
+      ],
+      [
+        -28.5,
+        28.5
+      ]
+    ]
+  },
+  {
+    "key": "hardware",
+    "type": "A",
+    "file": "models/A-hardware.stl",
+    "triangles": 15492,
+    "bytes": 774684,
+    "bounds": [
+      [
+        -204.5,
+        204.5
+      ],
+      [
+        69.80000000000001,
+        103.10000000000001
+      ],
+      [
+        -28.5,
+        28.5
+      ]
+    ]
+  },
+  {
+    "key": "hardware",
+    "type": "B",
+    "file": "models/B-hardware.stl",
+    "triangles": 15492,
+    "bytes": 774684,
+    "bounds": [
+      [
+        -204.5,
+        204.5
+      ],
+      [
+        69.80000000000001,
+        103.10000000000001
+      ],
+      [
+        -28.5,
+        28.5
+      ]
+    ]
+  },
+  {
+    "key": "nickel",
+    "type": "A",
+    "file": "models/A-nickel.stl",
+    "triangles": 8064,
+    "bytes": 403284,
+    "bounds": [
+      [
+        -162,
+        162
+      ],
+      [
+        -66,
+        66
+      ],
+      [
+        -36.875,
+        36.875
+      ]
+    ]
+  },
+  {
+    "key": "nickel",
+    "type": "B",
+    "file": "models/B-nickel.stl",
+    "triangles": 8064,
+    "bytes": 403284,
+    "bounds": [
+      [
+        -162,
+        162
+      ],
+      [
+        -66,
+        66
+      ],
+      [
+        -36.875,
+        36.875
+      ]
+    ]
+  },
+  {
+    "key": "handles",
+    "type": "A",
+    "file": "models/A-handles.stl",
+    "triangles": 1456,
+    "bytes": 72884,
+    "bounds": [
+      [
+        -144,
+        144
+      ],
+      [
+        92.60000000000001,
+        113.60000000000001
+      ],
+      [
+        -36.575,
+        36.575
+      ]
+    ]
+  },
+  {
+    "key": "handles",
+    "type": "B",
+    "file": "models/B-handles.stl",
+    "triangles": 1456,
+    "bytes": 72884,
+    "bounds": [
+      [
+        -144,
+        144
+      ],
+      [
+        92.60000000000001,
+        113.60000000000001
+      ],
+      [
+        -36.575,
+        36.575
+      ]
+    ]
+  },
+  {
+    "key": "covermounts",
+    "type": "A",
+    "file": "models/A-covermounts.stl",
+    "triangles": 18432,
+    "bytes": 921684,
+    "bounds": [
+      [
+        -163,
+        163
+      ],
+      [
+        -88,
+        88
+      ],
+      [
+        -47.175,
+        47.175
+      ]
+    ]
+  },
+  {
+    "key": "covermounts",
+    "type": "B",
+    "file": "models/B-covermounts.stl",
+    "triangles": 18432,
+    "bytes": 921684,
+    "bounds": [
+      [
+        -163,
+        163
+      ],
+      [
+        -88,
+        88
+      ],
+      [
+        -47.175,
+        47.175
+      ]
+    ]
+  },
+  {
+    "key": "bottomcase",
+    "type": "A",
+    "file": "models/A-bottomcase.stl",
+    "triangles": 1188,
+    "bytes": 59484,
+    "bounds": [
+      [
+        -210,
+        210
+      ],
+      [
+        -75.6,
+        -74
+      ],
+      [
+        -38.224999999999994,
+        38.224999999999994
+      ]
+    ]
+  },
+  {
+    "key": "bottomcase",
+    "type": "B",
+    "file": "models/B-bottomcase.stl",
+    "triangles": 1188,
+    "bytes": 59484,
+    "bounds": [
+      [
+        -210,
+        210
+      ],
+      [
+        -75.6,
+        -74
+      ],
+      [
+        -38.224999999999994,
+        38.224999999999994
+      ]
+    ]
+  },
+  {
+    "key": "busbarcradles",
+    "type": "A",
+    "file": "models/A-busbarcradles.stl",
+    "triangles": 1176,
+    "bytes": 58884,
+    "bounds": [
+      [
+        172,
+        206
+      ],
+      [
+        -74,
+        -59
+      ],
+      [
+        -38.25,
+        38.25
+      ]
+    ]
+  },
+  {
+    "key": "busbarcradles",
+    "type": "B",
+    "file": "models/B-busbarcradles.stl",
+    "triangles": 1176,
+    "bytes": 58884,
+    "bounds": [
+      [
+        -206,
+        -172
+      ],
+      [
+        -74,
+        -59
+      ],
+      [
+        -38.25,
+        38.25
+      ]
+    ]
+  },
+  {
+    "key": "casefasteners",
+    "type": "A",
+    "file": "models/A-casefasteners.stl",
+    "triangles": 1824,
+    "bytes": 91284,
+    "bounds": [
+      [
+        -194,
+        194
+      ],
+      [
+        -85,
+        -69
+      ],
+      [
+        -20,
+        20
+      ]
+    ]
+  },
+  {
+    "key": "casefasteners",
+    "type": "B",
+    "file": "models/B-casefasteners.stl",
+    "triangles": 1824,
+    "bytes": 91284,
+    "bounds": [
+      [
+        -194,
+        194
+      ],
+      [
+        -85,
+        -69
+      ],
+      [
+        -20,
+        20
+      ]
+    ]
+  },
+  {
+    "key": "lowerties",
+    "type": "A",
+    "file": "models/A-lowerties.stl",
+    "triangles": 5760,
+    "bytes": 288084,
+    "bounds": [
+      [
+        -182,
+        182
+      ],
+      [
+        -85.5,
+        -75.5
+      ],
+      [
+        -47.175,
+        47.175
+      ]
+    ]
+  },
+  {
+    "key": "lowerties",
+    "type": "B",
+    "file": "models/B-lowerties.stl",
+    "triangles": 5760,
+    "bytes": 288084,
+    "bounds": [
+      [
+        -182,
+        182
+      ],
+      [
+        -85.5,
+        -75.5
+      ],
+      [
+        -47.175,
+        47.175
+      ]
+    ]
+  },
+  {
+    "key": "covers",
+    "type": "A",
+    "file": "models/A-covers.stl",
+    "triangles": 7578,
+    "bytes": 378984,
+    "bounds": [
+      [
+        -214,
+        214
+      ],
+      [
+        -95,
+        92.60000000000001
+      ],
+      [
+        -43.425,
+        43.425
+      ]
+    ]
+  },
+  {
+    "key": "covers",
+    "type": "B",
+    "file": "models/B-covers.stl",
+    "triangles": 7578,
+    "bytes": 378984,
+    "bounds": [
+      [
+        -214,
+        214
+      ],
+      [
+        -95,
+        92.60000000000001
+      ],
+      [
+        -43.425,
+        43.425
+      ]
+    ]
+  }
+]

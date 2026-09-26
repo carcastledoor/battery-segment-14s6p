@@ -1,43 +1,58 @@
-# P45B 14S6P 배터리 세그먼트
+# 70S6P Battery Pack · Mechanical Design Portfolio
 
-84셀 배터리 세그먼트의 수정 가능한 개념 모델입니다. 브라우저에서 조립·분해, 회전, 부품 표시, 치수 변경을 확인할 수 있습니다.
+**5개 세그먼트 · 420셀 · 2층 전장 트레이 · 구리 버스바 · 측면 볼팅 커버**
 
-![세그먼트 3D 미리보기](preview.png)
+원통형 셀 세그먼트부터 소자방과 하우징까지, 배치와 조립·분해 구조를 검토한 기계 패키징 초안입니다.
 
-## Windows에서 열기
+![현재 모델의 계층별 배치](portfolio/assets/overview.png)
 
-1. `Windows-Share.zip`을 다운로드하고 **모두 압축 풀기**를 선택합니다.
-2. `Battery-Segment-3D.html`을 **Microsoft Edge 또는 Google Chrome**으로 엽니다.
-3. 드래그로 회전하고 마우스 휠로 확대합니다. `상부`, `단자 측면`, 분해 슬라이더로 부품 위치를 확인할 수 있습니다.
+## 심사위원 안내
 
-HTML 파일 하나만 전달해도 작동합니다. 별도 설치나 외부 리소스가 필요하지 않으며 브라우저의 WebGL 지원이 필요합니다. GitHub의 HTML 파일 페이지에서는 3D가 실행되지 않으므로 파일을 내려받아 여세요. 비공개 저장소 링크는 저장소 접근 권한이 있는 사용자만 열 수 있습니다. 접근 권한이 없는 사람에게는 ZIP 파일을 전달할 수 있습니다.
+[검토 순서와 실행 방법](portfolio/documents/REVIEWER-GUIDE.md)을 먼저 확인해 주세요.
 
-## 파일
+## 먼저 보기
 
-|파일|용도|
+| 목적 | 파일 |
 |---|---|
-|`Battery-Segment-3D.html`|독립 실행형 3D 미리보기, 치수 변경 및 원본 내보내기|
-|`segment.scad`|수정 가능한 OpenSCAD 원본|
-|`MODEL-SPEC.md`|최신 치수, 구조, 미확정 항목|
-|`Windows-Share.zip`|다른 사람에게 전달할 Windows용 묶음|
-|`preview.png`|조립 상태 참고 이미지|
+| 회전·분해 가능한 미리보기 | [Interactive-Preview.zip](portfolio/downloads/Interactive-Preview.zip) → 압축 해제 → **index.html** |
+| 전체 조립 형상 | [Full-Assembly-STL.zip](portfolio/downloads/Full-Assembly-STL.zip) |
+| 부품별 모델과 OpenSCAD 원본 | [CAD-and-Parts.zip](portfolio/downloads/CAD-and-Parts.zip) |
+| 전체 부품 정리 | [64개 형상 그룹 목록](portfolio/documents/PARTS.md) · [CSV 부품표](portfolio/documents/BOM.csv) |
+| 설계 설명 | [구조·치수·분해 순서](portfolio/documents/DESIGN.md) |
+| 검증 범위 | [검증 기록과 제한](portfolio/documents/VALIDATION.md) |
 
-## 반영된 구조
+저장소는 **비공개**로 유지합니다. GitHub 파일 화면에서는 HTML이 실행되지 않으므로 ZIP을 내려받아 로컬에서 여세요. 인터넷이나 별도 설치 없이 WebGL 지원 브라우저에서 실행됩니다. Windows Edge/Chrome에서 사용할 수 있는 구조이며 Windows 실기기 검증은 수행하지 않았습니다. STL은 GitHub의 파일 뷰어에서도 확인할 수 있지만 큰 파일은 다운로드가 필요할 수 있습니다.
 
-- P45B 14열 × 6행, 84셀. 인접 열 극성 교대.
-- 양면 홀더 2장, 직렬 연결판 13장, 끝단 연장판 2장.
-- 끝단 니켈·구리판을 좌우로 연장하고 **홀더 바깥의 구리 버스바**와 겹쳐 접속.
-- 구리 버스바 폭 28 mm. PCB 양끝 구멍과 버스바 단자 구멍은 **Ø5.5 mm, 동축**.
-- PCB는 최상단 셀 표면에서 2 mm 위. 구리 버스바 높이도 이에 맞춤.
+## 설계의 핵심
 
-## 모델 수정
+- **B–A–B–A–B:** 인접 직렬 연결 위치를 가깝게 하면서 세그먼트 팬 방향 유지
+- **전장 패키징:** BMS 90° 회전, 음극 AIR 인접 배치, 온도 확장모듈 독립 바닥 체결
+- **IMD 3층 공간:** 본체와 추가 PCB 두 장, 층간 지지대
+- **전력 경로:** 직선 세그먼트 구리바, AIR–외부 커넥터 연결, 별도 두께의 수축튜브 표현
+- **분해 구조:** 뚜껑 측면 볼트부터 세그먼트 인출까지 12단계 표시
+- **겹침 커버:** 외측 뚜껑 벽 → 볼트 → 기존 박스 벽의 팝너트, 총 8곳
 
-브라우저에서 셀 피치, 홀더 두께, 삽입 여유, 구리 버스바 폭을 바꿀 수 있습니다. `CAD 원본 저장`은 현재 설정을 반영한 `.scad` 파일을 저장하고, `3D 메시 저장`은 현재 표시/분해 상태의 `.obj`를 저장합니다.
+![2층 전장품 배치](portfolio/assets/electronics.png)
 
-OpenSCAD 원본에서 `part`를 `holder`, `bridge`, `endplate`, `terminal`, `pcb`로 바꾸면 단품을 확인할 수 있습니다. 기본값 `assembly`는 전체 모델입니다.
+## 파일 구성
 
-## 검증 범위
+```text
+portfolio/
+├── index.html              # 포트폴리오 시작 화면
+├── assets/                 # 모델 이미지, 스타일, 부품 검색
+├── viewer/                 # 전체 팩 / V2 세그먼트 인터랙티브 뷰어
+├── models/                 # 85개 STL: pack-, A-, B- 접두어
+├── cad/                    # OpenSCAD 조립 원본
+├── documents/              # 부품표, 설계 설명, 검증·출처
+└── downloads/              # 미리보기 / 전체 조립 / CAD 묶음
+```
 
-macOS Chrome에서 3D 초기 표시, 시점 전환, 분해, 부품 표시, 치수 변경, SCAD/OBJ 저장과 작은 화면 배치를 확인했습니다. Windows 실기기 시험과 OpenSCAD 렌더 검증은 수행하지 않았습니다.
+## 현재 설계 상태
 
-이 모델은 **형상 검토용이며 제작 승인 도면이 아닙니다.** 셀 외형 및 사용자가 지정한 단자 구멍을 제외한 여러 치수는 임시값입니다. 허용전류, 용접·체결, 절연, 냉각, 진동 및 PCB 회로는 별도 설계·검증이 필요합니다.
+이 포트폴리오는 **형상·배치 검토용 초안**입니다. 퓨즈 정격, 커넥터 직결 링 접속부, 팝너트 규격, 추가 PCB의 실제 회로·부품은 미확정입니다. 열·구조·절연 시험, 연속 충돌 해석, 제작 승인 또는 실차 성능 검증을 완료한 결과로 제시하지 않습니다.
+
+단위는 mm, Y축은 위쪽입니다. 부품 STL은 조립 좌표를 유지하며 혼합 볼트·너트·와셔는 세트로 관리합니다. [모델 출처](portfolio/documents/SOURCES.md)를 함께 참고하세요.
+
+## 이전 세그먼트 초안
+
+기존 초기 자료는 보존했습니다: [이전 HTML](Battery-Segment-3D.html) · [이전 치수 기록](MODEL-SPEC.md) · [이전 OpenSCAD](segment.scad). 최신 설계는 위 portfolio 폴더 기준입니다.

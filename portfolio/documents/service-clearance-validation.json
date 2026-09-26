@@ -1,0 +1,16 @@
+{
+  "series_pair_80mm_sweep_hits": {
+    "bms": 0,
+    "thermistor": 0,
+    "imd": 0,
+    "hvoutput": 0,
+    "airs": 0,
+    "fuselinks": 0,
+    "mainfuse": 0,
+    "equipmentmounts": 0,
+    "deckbrackets": 0,
+    "sensingmates": 0,
+    "imdstack": 0
+  },
+  "scope": "conservative triangle versus swept envelopes; pack ends require joint release or flexible links; tool and electrical clearance not certified"
+}

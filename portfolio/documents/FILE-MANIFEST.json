@@ -1,0 +1,637 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 3372,
+    "sha256": "cfdbd964583c9cf748daa1b0d05bbf8049ccce06bdcb6d6c54a5b8764ef77a40"
+  },
+  {
+    "path": "assets/catalog-ui.js",
+    "bytes": 1044,
+    "sha256": "ea26629dcebab781fb06131125816f80929a2c38da034bcdbb561c5a106623d1"
+  },
+  {
+    "path": "assets/catalog.js",
+    "bytes": 23579,
+    "sha256": "99bfd09f444157fa943934ba3dd958c9ff2a90608b1abe513b32edf606fc11eb"
+  },
+  {
+    "path": "assets/electronics.png",
+    "bytes": 112103,
+    "sha256": "5f1764b4fe6e896368bc55395503698224b14defcf4f4c4dfc5c11843e298390"
+  },
+  {
+    "path": "assets/overview.png",
+    "bytes": 99377,
+    "sha256": "4d2e8dc7768d7dd0e8003f91ffec13bdc14763530bd0c9bf0c1364044aab284e"
+  },
+  {
+    "path": "assets/style.css",
+    "bytes": 5962,
+    "sha256": "7fab3fc7a573bf6b0f5736442f65e23a603ff393d3d91e4623fb98cf9cc2996a"
+  },
+  {
+    "path": "cad/README.md",
+    "bytes": 285,
+    "sha256": "c759ea65adc00e52d5a75786b9a6b4c0476aed4f528c70403f5465e27e15a9eb"
+  },
+  {
+    "path": "cad/box-floor1.scad",
+    "bytes": 2093,
+    "sha256": "318551c59ea8b3e27926f9cfc92dbf470e64dcc468c003836a50e24e9686a9f3"
+  },
+  {
+    "path": "cad/cooling/Inlet-display.stl",
+    "bytes": 5750484,
+    "sha256": "ba70af10a1ccaff5990438567ee65605ac9db0993633b1e9c83ea8825b7afc32"
+  },
+  {
+    "path": "cad/cooling/Outlet-display.stl",
+    "bytes": 2341384,
+    "sha256": "eb44149223a35dd6cdba58612af28d8a2a518a5b965001bb0d2dbf525bc6dd43"
+  },
+  {
+    "path": "cad/equipment-layout.scad",
+    "bytes": 2238,
+    "sha256": "b848b8cee18fad0069d6cc2ee886b7150bff33567d7ef7f6190f338109f29f9e"
+  },
+  {
+    "path": "cad/fan-mesh.scad",
+    "bytes": 1233532,
+    "sha256": "d77df0da0e26861dfbb4854f7772a2f4062ed5af7de9624091c4f1bd8fb83aba"
+  },
+  {
+    "path": "cad/segment-source.scad",
+    "bytes": 1329222,
+    "sha256": "7f2cc2a530b7151142ed876f78750d34e57bf8df9dbc000daef116de6fd81742"
+  },
+  {
+    "path": "documents/BOM.csv",
+    "bytes": 11037,
+    "sha256": "8f3f59206967110a3fbb2f240879817adc5871d78e3230bd36180d0e97dd8af3"
+  },
+  {
+    "path": "documents/DESIGN.md",
+    "bytes": 3387,
+    "sha256": "e97788461814e004cce949b40eab2da65de5d33fe698c02ee81d05a67e3d270b"
+  },
+  {
+    "path": "documents/LEGACY-README.md",
+    "bytes": 2902,
+    "sha256": "c59bc80717c63e6a3cbafe49d32e2e5d8119a7190c0c812492014e14df515fb6"
+  },
+  {
+    "path": "documents/PARTS.md",
+    "bytes": 9506,
+    "sha256": "cba6c3d4cfc49891e49e456ff0aa6fbd8d30af903c0772652ebaa57a25db02e6"
+  },
+  {
+    "path": "documents/REVIEWER-GUIDE.md",
+    "bytes": 2445,
+    "sha256": "958fa2e3566fec53c74d28d46bb2fcefc0704f2d7bb32ff5993f2f8300e2fc14"
+  },
+  {
+    "path": "documents/SOURCES.md",
+    "bytes": 1967,
+    "sha256": "a31af148797ce048cf8b0bed6baa23a92b0f7c4f34f583ed937c09f49077d1f9"
+  },
+  {
+    "path": "documents/VALIDATION.md",
+    "bytes": 1862,
+    "sha256": "460849e9f2dd3194018549c915ffac8dce314853dd76e5b9fdb1020a135a0507"
+  },
+  {
+    "path": "documents/heatshrink-layout.json",
+    "bytes": 261,
+    "sha256": "56da98499823396e108648cf80c4b82ff2b178346a6371e5b9f462f57c4d0aa1"
+  },
+  {
+    "path": "documents/service-clearance-validation.json",
+    "bytes": 409,
+    "sha256": "53978462cee561b176da93b2e047f25b9201a564810b02a26655b82237e0d8e7"
+  },
+  {
+    "path": "documents/service-layout.json",
+    "bytes": 1951,
+    "sha256": "70afc8d1cf3d9ef01d68798be52256b9658d67222fa106fee610ec589c882763"
+  },
+  {
+    "path": "downloads/CAD-and-Parts.zip",
+    "bytes": 20565239,
+    "sha256": "d643899530d1cf9bf7cc57c191ea0cfd7087e6ab547a29c47530be77208f4ecc"
+  },
+  {
+    "path": "downloads/Full-Assembly-STL.zip",
+    "bytes": 35251101,
+    "sha256": "3a6197f6f9fea6ae6a65f7800113c4e5298a84cf872a5d4344f86fcfe6839151"
+  },
+  {
+    "path": "downloads/Interactive-Preview.zip",
+    "bytes": 25176546,
+    "sha256": "b9483ac09ca81695ded003d49e9ba82172ec1a00af6244da93fa5eb3061205c7"
+  },
+  {
+    "path": "index.html",
+    "bytes": 7199,
+    "sha256": "b5f6b2bf78b7fc094568b0b895334f199c75f6f31dc2344c2e94bb733df3d4af"
+  },
+  {
+    "path": "models/A-bottomcase.stl",
+    "bytes": 59484,
+    "sha256": "798ef234e3c03db47ec3ed79dda9d62f418e8b1d2bd2a9ad1bb909bd1c5892a5"
+  },
+  {
+    "path": "models/A-bridges.stl",
+    "bytes": 374484,
+    "sha256": "f4ecd501bcb4a721e4b6e77525cd0a3078cb55ae656ea4cd6e1de5c4d17c0932"
+  },
+  {
+    "path": "models/A-busbarcradles.stl",
+    "bytes": 58884,
+    "sha256": "cdfd1254e7d981373e16289b4528cebc46135ab41fc67c50608dcd5d880764d3"
+  },
+  {
+    "path": "models/A-casefasteners.stl",
+    "bytes": 91284,
+    "sha256": "7036e46cb2b6222e1213c1254fa87653a35f0faff13823be351eab39596c217f"
+  },
+  {
+    "path": "models/A-cells.stl",
+    "bytes": 1612884,
+    "sha256": "857755acd9d1299c689a64ca53f72e70b978315dd913777b97bae529289e98ae"
+  },
+  {
+    "path": "models/A-covermounts.stl",
+    "bytes": 921684,
+    "sha256": "ff30082393a7b584fb45dfb80bb14b8674a6d1e50a5ce1d9c069ee1680e4ca2d"
+  },
+  {
+    "path": "models/A-covers.stl",
+    "bytes": 378984,
+    "sha256": "dea806fe22d9268509b3eee8ac81fff3b482549d3ee2faa83aaaad7157756fab"
+  },
+  {
+    "path": "models/A-fanmount.stl",
+    "bytes": 455684,
+    "sha256": "78c6c99136724a35d3b56b537ba99d6b6a6aa1ae18f15e2d976521ef44d62865"
+  },
+  {
+    "path": "models/A-fans.stl",
+    "bytes": 589384,
+    "sha256": "ee00b6e3810c1de1e5849e737d8cded57346d17861d39097ebc05e28a583d04f"
+  },
+  {
+    "path": "models/A-handles.stl",
+    "bytes": 72884,
+    "sha256": "446f015875b65b4713edcef79889a85ffdb0f5bef4a5c1dd4b1810f400d8c790"
+  },
+  {
+    "path": "models/A-hardware.stl",
+    "bytes": 774684,
+    "sha256": "0a49d7b95acd99bfb579a4aeb4d0b0677cd276d00cd0d88ab373ae7265aac8e1"
+  },
+  {
+    "path": "models/A-holders.stl",
+    "bytes": 4802484,
+    "sha256": "75c6ce391792965833bf801820461daa1d3ccc792e5b461ee5532ab9b813fed5"
+  },
+  {
+    "path": "models/A-insulator.stl",
+    "bytes": 33084,
+    "sha256": "6aa4eb7e3068b1f69497e5200598c9b76586b21a144984c2a561053c9effaa09"
+  },
+  {
+    "path": "models/A-lowerties.stl",
+    "bytes": 288084,
+    "sha256": "8f32407477f6895cfb5f0a95d9c3e8b1d9add627b86fe7589b5aa57cd613b7cd"
+  },
+  {
+    "path": "models/A-nickel.stl",
+    "bytes": 403284,
+    "sha256": "e2e4838ccbeb0dba65ffad32899c348a0cbce85869c66faf7b5ae588755eda9b"
+  },
+  {
+    "path": "models/A-pcb.stl",
+    "bytes": 188284,
+    "sha256": "c89de40cb7853acc755088b062db85d3dc62642e6c9bc3bb145e748b2b17371e"
+  },
+  {
+    "path": "models/A-pins.stl",
+    "bytes": 3844884,
+    "sha256": "ea3ebe51d24f66ea5d19f56601fa702f00ede94b9f7b2fa711e0ddd1bd2e45ea"
+  },
+  {
+    "path": "models/A-sensing.stl",
+    "bytes": 28884,
+    "sha256": "febadaa54de68ab6d0f5bedde3b21d5b0abbfdaf6f495b92e97a9d35621cc877"
+  },
+  {
+    "path": "models/A-terminals.stl",
+    "bytes": 58884,
+    "sha256": "6724d572e47a694c316919334b239bd361f90869c951491b418fad78f7b71bb5"
+  },
+  {
+    "path": "models/A-topfasteners.stl",
+    "bytes": 86484,
+    "sha256": "80657df0ab5696dd088b07a9b9e7f65b8d27093625d8a5884f7a2d0c2466b081"
+  },
+  {
+    "path": "models/A-topinserts.stl",
+    "bytes": 102484,
+    "sha256": "26f46195bd8762a2ed7ddfe8467f1166ff78d25b5c53036e307672a2dcdd93eb"
+  },
+  {
+    "path": "models/B-bottomcase.stl",
+    "bytes": 59484,
+    "sha256": "798ef234e3c03db47ec3ed79dda9d62f418e8b1d2bd2a9ad1bb909bd1c5892a5"
+  },
+  {
+    "path": "models/B-bridges.stl",
+    "bytes": 374484,
+    "sha256": "f4ecd501bcb4a721e4b6e77525cd0a3078cb55ae656ea4cd6e1de5c4d17c0932"
+  },
+  {
+    "path": "models/B-busbarcradles.stl",
+    "bytes": 58884,
+    "sha256": "7f076bc6445e8edfebcbfe6e4c59e9189052572632067ef68e517576f451bc13"
+  },
+  {
+    "path": "models/B-casefasteners.stl",
+    "bytes": 91284,
+    "sha256": "7bee2053e0611865f49b3be89adb827c8527b89444d898ed51ebb27038fd10e4"
+  },
+  {
+    "path": "models/B-cells.stl",
+    "bytes": 1612884,
+    "sha256": "857755acd9d1299c689a64ca53f72e70b978315dd913777b97bae529289e98ae"
+  },
+  {
+    "path": "models/B-covermounts.stl",
+    "bytes": 921684,
+    "sha256": "ff30082393a7b584fb45dfb80bb14b8674a6d1e50a5ce1d9c069ee1680e4ca2d"
+  },
+  {
+    "path": "models/B-covers.stl",
+    "bytes": 378984,
+    "sha256": "8449e51b69a392d7565fbfd967076d577048de1c15b3ccf79c6b2871a258c7af"
+  },
+  {
+    "path": "models/B-fanmount.stl",
+    "bytes": 455684,
+    "sha256": "8be10209af90dacb1464ac5e6a8d58ccd228ddc522e2a8d3e5941f5c3a0c7e0b"
+  },
+  {
+    "path": "models/B-fans.stl",
+    "bytes": 589384,
+    "sha256": "4cc32221e65da7c2d89bbd7cabc6a6f4bb2cb71feaea0da5f56a5d3e4a441260"
+  },
+  {
+    "path": "models/B-handles.stl",
+    "bytes": 72884,
+    "sha256": "446f015875b65b4713edcef79889a85ffdb0f5bef4a5c1dd4b1810f400d8c790"
+  },
+  {
+    "path": "models/B-hardware.stl",
+    "bytes": 774684,
+    "sha256": "79becdef3596d9b95bcb5e8c3c8fd31786eecbc7ca1d5c3b800977eaba297575"
+  },
+  {
+    "path": "models/B-holders.stl",
+    "bytes": 4802484,
+    "sha256": "75c6ce391792965833bf801820461daa1d3ccc792e5b461ee5532ab9b813fed5"
+  },
+  {
+    "path": "models/B-insulator.stl",
+    "bytes": 33084,
+    "sha256": "073d41c8d46d140c458d2ef71f52502b586cf6f0baf9f8417878a185c4fc6c5d"
+  },
+  {
+    "path": "models/B-lowerties.stl",
+    "bytes": 288084,
+    "sha256": "8f32407477f6895cfb5f0a95d9c3e8b1d9add627b86fe7589b5aa57cd613b7cd"
+  },
+  {
+    "path": "models/B-nickel.stl",
+    "bytes": 403284,
+    "sha256": "e2e4838ccbeb0dba65ffad32899c348a0cbce85869c66faf7b5ae588755eda9b"
+  },
+  {
+    "path": "models/B-pcb.stl",
+    "bytes": 188284,
+    "sha256": "90a1f18a08b0be833390010ff44fdbb8781d8107ba3224974213cf212bc76789"
+  },
+  {
+    "path": "models/B-pins.stl",
+    "bytes": 3844884,
+    "sha256": "873411c2771b27770ef09d15fe1c5db44e75fbd0bd1740c4129ce0ee11861454"
+  },
+  {
+    "path": "models/B-sensing.stl",
+    "bytes": 28884,
+    "sha256": "dfb16fb7ad37e8fdeaa3964727ec36d803ed520bccbb7900f75a2dfb177b7c38"
+  },
+  {
+    "path": "models/B-terminals.stl",
+    "bytes": 58884,
+    "sha256": "117aa8fc91f407b52c45af89d42b14eab71f226d4729005663af11827f1cbe24"
+  },
+  {
+    "path": "models/B-topfasteners.stl",
+    "bytes": 86484,
+    "sha256": "80657df0ab5696dd088b07a9b9e7f65b8d27093625d8a5884f7a2d0c2466b081"
+  },
+  {
+    "path": "models/B-topinserts.stl",
+    "bytes": 102484,
+    "sha256": "26f46195bd8762a2ed7ddfe8467f1166ff78d25b5c53036e307672a2dcdd93eb"
+  },
+  {
+    "path": "models/README.md",
+    "bytes": 312,
+    "sha256": "b376d1e9132a698159fc6e0a763ac884164c452165d025f390fce8ca00f95a42"
+  },
+  {
+    "path": "models/pack-airnuts.stl",
+    "bytes": 9684,
+    "sha256": "27009498a652b85d09ee3e72f2f08fb9467e688d062ccf8603bec7c942797c07"
+  },
+  {
+    "path": "models/pack-airs.stl",
+    "bytes": 1284284,
+    "sha256": "e431908b416f0b0fab13599ed875e5fe07fc8106bcdd13fb827ccad6d5a25ade"
+  },
+  {
+    "path": "models/pack-airwashers.stl",
+    "bytes": 51284,
+    "sha256": "bd6e43163c6da03b4c5dfaeabbde2668d62e6b31db75a71a4d10877b6d3c05ce"
+  },
+  {
+    "path": "models/pack-bms.stl",
+    "bytes": 6653384,
+    "sha256": "8748b5abadd3b560ac67f79859e5df2d28cf4d997067c531ce3018dec1e8ec57"
+  },
+  {
+    "path": "models/pack-boxbase.stl",
+    "bytes": 684,
+    "sha256": "94ddcd2bc7e4fb1d1fbe8debc40b986d3de842c891ec7ef7813339c71fe7eb33"
+  },
+  {
+    "path": "models/pack-boxwalls.stl",
+    "bytes": 6459784,
+    "sha256": "3340c8feaaa3534af4fc4d13761d00ddc85cd1fab243382bf9a518339fb35ad9"
+  },
+  {
+    "path": "models/pack-captivenuts.stl",
+    "bytes": 243284,
+    "sha256": "11aeb367d013d537f244965ab1bfba29cc9fca1613133f4f7135a205d70cc552"
+  },
+  {
+    "path": "models/pack-coolingFasteners.stl",
+    "bytes": 96084,
+    "sha256": "7edb5731465d195ab275ac85dcaabcd0fba43be7c420427b7978975948702143"
+  },
+  {
+    "path": "models/pack-coolingInlet.stl",
+    "bytes": 4941684,
+    "sha256": "5a71d0d84a0accc1da057908bfb37c5b66447f2cd438760d25c2483701dc35c2"
+  },
+  {
+    "path": "models/pack-coolingSeals.stl",
+    "bytes": 712884,
+    "sha256": "04953d2f642fdc5f5ea71c8102966d820b14e46e239d15d798e3425cb1aadc4f"
+  },
+  {
+    "path": "models/pack-deckbolts.stl",
+    "bytes": 294484,
+    "sha256": "e21faa7c82f55c88eaac39b98c3956bf38ba110fe126af48a2aa734e5b077dd5"
+  },
+  {
+    "path": "models/pack-deckbrackets.stl",
+    "bytes": 124884,
+    "sha256": "d888d06c1c4ddb187adee7f3ae17b77063a28fc3dbd0f5c27f8e48af649438d4"
+  },
+  {
+    "path": "models/pack-equipmentbolts.stl",
+    "bytes": 345684,
+    "sha256": "075feb2377c6b9d4e4cc04bc79559629cd9bba42d8ef021d227f10734299384d"
+  },
+  {
+    "path": "models/pack-equipmentmounts.stl",
+    "bytes": 51284,
+    "sha256": "8f36bef3f1347327dbe5611ca20ceccd691fe74d8e309a6319599b60e3a71085"
+  },
+  {
+    "path": "models/pack-fixedshrink.stl",
+    "bytes": 443934,
+    "sha256": "a2c7d8de3757bac5241d4f7e7a9e92e3f43c6fcb0929eec84c41de45ff652833"
+  },
+  {
+    "path": "models/pack-floor2.stl",
+    "bytes": 838484,
+    "sha256": "d256a71dcc271d9ee16abb974c49080e63081df1ffed54d5731b988d117108f5"
+  },
+  {
+    "path": "models/pack-fusebolts.stl",
+    "bytes": 73684,
+    "sha256": "5d71bc6ef4389b3983234af456a3e90efbb425c4ddc789cca296ffc7b73f5ad8"
+  },
+  {
+    "path": "models/pack-fuselinks.stl",
+    "bytes": 57484,
+    "sha256": "0f09af984d0d148de7075297d6295a594e81caf7ccba9eaf274e6a16b621cb55"
+  },
+  {
+    "path": "models/pack-hvfasteners.stl",
+    "bytes": 294484,
+    "sha256": "c0d1815a18d5112546b1c51e72727eaf4854e4071fde5c482088161a18305d64"
+  },
+  {
+    "path": "models/pack-hvoutput.stl",
+    "bytes": 54884,
+    "sha256": "74f997142fc3a45805f83e732afc8794b62a6ffa5d38f49dad36768a2e39b7b6"
+  },
+  {
+    "path": "models/pack-hvoutputbolts.stl",
+    "bytes": 43284,
+    "sha256": "8e093ce1df64645205d0870c479ed28b369cca97944dfee56bf32cf19094bcfd"
+  },
+  {
+    "path": "models/pack-hvpanel.stl",
+    "bytes": 652384,
+    "sha256": "ec25c685ec16a140016a2c181e47bd3d0cd1b0a82684022b02d2f8c0b6aee278"
+  },
+  {
+    "path": "models/pack-imd.stl",
+    "bytes": 709084,
+    "sha256": "54dddd22bbe0698e5a7976b98cbae4ce3aeb0f2cc583d646800a64614630d49d"
+  },
+  {
+    "path": "models/pack-imdmounts.stl",
+    "bytes": 76884,
+    "sha256": "d29ed679505bd63c009e97a4fc4dd41feb975ac1937255c50c2ba52b06bbd564"
+  },
+  {
+    "path": "models/pack-imdstack.stl",
+    "bytes": 404884,
+    "sha256": "a5a137b9282af83e8c8a4690044840a5b355c47c52b6110cc57110f58a1f0cfb"
+  },
+  {
+    "path": "models/pack-lidbolts.stl",
+    "bytes": 172884,
+    "sha256": "c75e5330f071842b4b8ea1c3bedcc3f22aef338e355f83a055e48692b9b0fdc0"
+  },
+  {
+    "path": "models/pack-lidlocating.stl",
+    "bytes": 115284,
+    "sha256": "21e6d6d8793bb97d5101fe6553b4c1823f34e4ee67f1310e4f8eb3a2884fa3c0"
+  },
+  {
+    "path": "models/pack-lidrivnuts.stl",
+    "bytes": 307284,
+    "sha256": "fbb63a72d5444d2e6b0a378b43cd77edb65b70d3d154a5bfb7499b7d8ffb473d"
+  },
+  {
+    "path": "models/pack-lidtop.stl",
+    "bytes": 684,
+    "sha256": "69b1b1c2f4bfbed5052ed06e6d2d2f76dff8fb1799f6fd59513e22d435c3e510"
+  },
+  {
+    "path": "models/pack-mainfuse.stl",
+    "bytes": 63684,
+    "sha256": "710336dd25588dcd63088900135686ae1bafeb603f2d8e6b66adacf9977e7854"
+  },
+  {
+    "path": "models/pack-packfasteners.stl",
+    "bytes": 73684,
+    "sha256": "ecaeba0142384b2cfa3c73af4965aa10aacbf71d3a9d1d86fc0f5d4511fe728c"
+  },
+  {
+    "path": "models/pack-packnegative.stl",
+    "bytes": 28684,
+    "sha256": "bbd0492219322f91ebe3257d34189401fc210e84e3b005d2039f2c45afd7e805"
+  },
+  {
+    "path": "models/pack-packplugs.stl",
+    "bytes": 3820884,
+    "sha256": "a94f311683219bcd9147b52ea504aec82fe201bc88d6004870a965d114409086"
+  },
+  {
+    "path": "models/pack-packrings.stl",
+    "bytes": 26884,
+    "sha256": "fee64d9664180d112456362492b035b27a7eaa211ea78b4617486a2d1c8cc086"
+  },
+  {
+    "path": "models/pack-panelmountbolts.stl",
+    "bytes": 129684,
+    "sha256": "c05e6366e0a6472fbf56afd209e5a71048cf8be3958a9a37e5b0c14ae63040ec"
+  },
+  {
+    "path": "models/pack-panelmountnuts.stl",
+    "bytes": 91284,
+    "sha256": "1491955b6653aaacd1e04a7644265006f5eb0813beaf65cb9461454f6104d78d"
+  },
+  {
+    "path": "models/pack-partitions.stl",
+    "bytes": 2484,
+    "sha256": "5e2da040241907b02004ac4f8556870db66122c7acd5eb2836687547b338ebe3"
+  },
+  {
+    "path": "models/pack-powercables.stl",
+    "bytes": 115284,
+    "sha256": "a17c89a787215c6e29d4bacd077fb84a2f4b2a95677a1a62f07e3c5b818e99eb"
+  },
+  {
+    "path": "models/pack-powerplugs.stl",
+    "bytes": 15283284,
+    "sha256": "9effa5cb8ee0e8bdda686db6f6e861ec2a13a403e0aca44948f1d7b10fa431b2"
+  },
+  {
+    "path": "models/pack-ringadapters.stl",
+    "bytes": 107284,
+    "sha256": "9598384d8254b141aaf0386c505a0f08d8d046232ad14669afc870b851175393"
+  },
+  {
+    "path": "models/pack-sensingmates.stl",
+    "bytes": 10884,
+    "sha256": "9230ad9e64adca75d1e2bf31276bb712116db5f26b9cf8682300960a8fd4a736"
+  },
+  {
+    "path": "models/pack-shrinkwrap.stl",
+    "bytes": 2562484,
+    "sha256": "15ccb083d3e8c052d9e6543aeda535701b09a3abbd6e2a75332740bf4655bb9d"
+  },
+  {
+    "path": "models/pack-thermistor.stl",
+    "bytes": 2321484,
+    "sha256": "7cc4d128abb49fd828376ce3e2e36a47dda805a6d475de8f16949273a640dd33"
+  },
+  {
+    "path": "tools/geometry-inventory.json",
+    "bytes": 26255,
+    "sha256": "e293eb198c152cbb91499eed3195ddd79bd81079a11db1beda9aa1512c2f3caf"
+  },
+  {
+    "path": "tools/validate_files.py",
+    "bytes": 1030,
+    "sha256": "e66938bc5e950a126043a13669594d143d26a978471e25497ea80eeb87237d93"
+  },
+  {
+    "path": "viewer/assembly.html",
+    "bytes": 1887142,
+    "sha256": "74b8cdf8d8efea1b92473a52b8dffba4ca46afcee94b08516970ee198fc7af6d"
+  },
+  {
+    "path": "viewer/pack-data-1.js",
+    "bytes": 894079,
+    "sha256": "cd628bf931f6e6f708fb8ef41f1a47d2b0814bb3e1690953465092cbc152064e"
+  },
+  {
+    "path": "viewer/pack-data-2.js",
+    "bytes": 12282203,
+    "sha256": "6a26f5666e6dce03b84c7a151a737a93793f464b124f2446b5acd39593461f30"
+  },
+  {
+    "path": "viewer/pack-data-3.js",
+    "bytes": 7154933,
+    "sha256": "063444e5e02dab88946ba1d869749df831e363e22da621bfafbe8768a64e7d79"
+  },
+  {
+    "path": "viewer/pack-data-4.js",
+    "bytes": 10270482,
+    "sha256": "bc9c482524276ee786d71a5b323f388ce9fc2090ba63ed8518c8e81fe8de0266"
+  },
+  {
+    "path": "viewer/pack-data-5.js",
+    "bytes": 711847,
+    "sha256": "3b65720c89671ec00f18b5cb17b82d10de9c9ff47256e3be0e47a2816709821d"
+  },
+  {
+    "path": "viewer/pack-data-6.js",
+    "bytes": 2937846,
+    "sha256": "81e3bd2b8bd13c00b153c250b3bcbf4e098962cc697c841760f57f22a8fa0c5a"
+  },
+  {
+    "path": "viewer/pack-data-7.js",
+    "bytes": 1329585,
+    "sha256": "4454238a0535dce905a0402a6c00b05fa40ff18971f79dd20f138fcabaa2ba58"
+  },
+  {
+    "path": "viewer/segment-data-1.js",
+    "bytes": 894079,
+    "sha256": "cd628bf931f6e6f708fb8ef41f1a47d2b0814bb3e1690953465092cbc152064e"
+  },
+  {
+    "path": "viewer/segment-data-2.js",
+    "bytes": 2937846,
+    "sha256": "81e3bd2b8bd13c00b153c250b3bcbf4e098962cc697c841760f57f22a8fa0c5a"
+  },
+  {
+    "path": "viewer/segment-data-3.js",
+    "bytes": 1330321,
+    "sha256": "03d023b0de6d8f10012d9b001683bb8559d86924035820bd3022669c6ff0a518"
+  },
+  {
+    "path": "viewer/segment.html",
+    "bytes": 48535,
+    "sha256": "9420df51446deeb35cf8ce835940d04662c69f9a2acb062b32d20f9e6d886902"
+  }
+]
