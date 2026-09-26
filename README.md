@@ -1,3 +1,18 @@
+# AI × Formula EV Battery System
+
+저전압 배터리의 문제 발견부터 재설계·제작·고장 진단·검차까지, AI를 활용하고 실물로 확인한 과정을 담은 지원 보충자료입니다.
+
+## 지원 포트폴리오부터 확인하기
+
+- [발표자료 PPT · 18장](portfolio/application/SK_Hynix_AI_Hackathon_Battery_Portfolio_v39_FinalReviewed.pptx)
+- [배터리 설계 Excel 계산기](portfolio/application/Formula_Student_Battery_Pack_Calculator_Rebuilt.xlsx) · [입력과 계산 근거](portfolio/application/CALCULATOR.md)
+- [문제 해결 흐름과 자료의 관계](portfolio/application/README.md)
+- [50MB 이하 제출용 ZIP](portfolio/downloads/SK-Hynix-AI-Supplement.zip)
+
+**2025 실물 프로젝트는 50S 24S12P·288셀입니다. 아래 70S6P·420셀 모델은 그 경험을 확장한 다음 시즌 설계 초안입니다.** 검차 통과 결과와 후속 모델의 검증 범위를 구분해 읽어 주세요.
+
+---
+
 # 70S6P Battery Pack · Mechanical Design Portfolio
 
 **5개 세그먼트 · 420셀 · 2층 전장 트레이 · 구리 버스바 · 측면 볼팅 커버**

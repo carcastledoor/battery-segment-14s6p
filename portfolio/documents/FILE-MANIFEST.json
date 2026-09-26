@@ -5,6 +5,26 @@
     "sha256": "cfdbd964583c9cf748daa1b0d05bbf8049ccce06bdcb6d6c54a5b8764ef77a40"
   },
   {
+    "path": "application/CALCULATOR.md",
+    "bytes": 2414,
+    "sha256": "4ad2e8513bc4bc386e1fe190269fd5243b0de4ba32b80a2284722218d0ac86b3"
+  },
+  {
+    "path": "application/Formula_Student_Battery_Pack_Calculator_Rebuilt.xlsx",
+    "bytes": 7211,
+    "sha256": "54358f24a0b37b4328ddcef0bdb8c4b7e2dcf76505e0328aa8d68b86af8214f5"
+  },
+  {
+    "path": "application/README.md",
+    "bytes": 3249,
+    "sha256": "c2e7a92290eed121634b812593a8ce040114e5986e9fbebf899a59e8d90a868a"
+  },
+  {
+    "path": "application/SK_Hynix_AI_Hackathon_Battery_Portfolio_v39_FinalReviewed.pptx",
+    "bytes": 19390789,
+    "sha256": "70a4b8f454a3e28a7ae02507187369aa358072fcfcdba7327a2884446fd7dd18"
+  },
+  {
     "path": "assets/catalog-ui.js",
     "bytes": 1044,
     "sha256": "ea26629dcebab781fb06131125816f80929a2c38da034bcdbb561c5a106623d1"
@@ -86,8 +106,8 @@
   },
   {
     "path": "documents/REVIEWER-GUIDE.md",
-    "bytes": 2445,
-    "sha256": "958fa2e3566fec53c74d28d46bb2fcefc0704f2d7bb32ff5993f2f8300e2fc14"
+    "bytes": 2654,
+    "sha256": "a9466b7d1deff38f744f84a68e94f26957e5c79f001cb7440dec2353451e1888"
   },
   {
     "path": "documents/SOURCES.md",
@@ -126,13 +146,18 @@
   },
   {
     "path": "downloads/Interactive-Preview.zip",
-    "bytes": 25176546,
-    "sha256": "b9483ac09ca81695ded003d49e9ba82172ec1a00af6244da93fa5eb3061205c7"
+    "bytes": 44568484,
+    "sha256": "91dccb3a1003a018dde01124fd4752bcd2928a42cb75e5c5920b547c56c70ac7"
+  },
+  {
+    "path": "downloads/SK-Hynix-AI-Supplement.zip",
+    "bytes": 44568484,
+    "sha256": "91dccb3a1003a018dde01124fd4752bcd2928a42cb75e5c5920b547c56c70ac7"
   },
   {
     "path": "index.html",
-    "bytes": 7199,
-    "sha256": "b5f6b2bf78b7fc094568b0b895334f199c75f6f31dc2344c2e94bb733df3d4af"
+    "bytes": 7609,
+    "sha256": "9afc15dc0dd5a64b40089e1acfa76fdf081f04bd374b42d7a3a9d2d3f521fb14"
   },
   {
     "path": "models/A-bottomcase.stl",
