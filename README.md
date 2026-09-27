@@ -21,9 +21,8 @@
 실물 제작·고장 진단·검차 결과는 포트폴리오 13–16장의 사진과 기록을 참고하세요. 이 저장소의 계산기·후속 모델은 해당 실물 결과를 대신하는 시험 증빙이 아닙니다. [검증 범위](docs/VALIDATION.md)
 
 <details>
-<summary>참조 발표자료와 파일 위치</summary>
+<summary>파일 위치</summary>
 
-- [참조 PPT 원본](materials/Battery-Portfolio.pptx): 페이지 번호를 확인할 때 사용
 - `site/documents/`: 계산기 원본
 - `site/`: 최신 통합 뷰어
 - `docs/`: 계산 재현·모델 설명·확인 범위
