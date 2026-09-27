@@ -1,0 +1,9 @@
+{
+  "visual_thickness_mm": 0.8,
+  "separate_shell": true,
+  "series_pairs_fully_covered": 4,
+  "connector_necks_covered": 8,
+  "connector_heads_exposed": true,
+  "actual_air_fuse_hv_contact_lands_exposed": true,
+  "material_and_voltage_rating": "not selected"
+}
