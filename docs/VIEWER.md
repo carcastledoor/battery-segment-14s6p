@@ -2,13 +2,15 @@
 
 [처음으로](../README.md)
 
-## Netlify 업로드
+먼저 Segment → Battery Box → Description 순서로 확인하세요. Frame은 차량 형상 참고용입니다. 아직 공유할 배포 주소는 등록하지 않았습니다.
+
+## 웹 배포 또는 로컬 실행
 
 1. [Battery-Design-Files-Netlify.zip](../downloads/Battery-Design-Files-Netlify.zip)을 다운로드합니다.
 2. [Netlify Drop](https://app.netlify.com/drop)에 ZIP을 올립니다.
 3. 발급된 HTTPS 주소를 엽니다. 첫 화면에서 Segment, Battery Box, Frame, Description을 선택합니다.
 
-저장소를 Netlify에 연결하는 경우 배포 폴더는 `site`, 빌드 명령은 비워 둡니다. 저장소 전체나 archive 폴더를 배포할 필요가 없습니다. 공개 웹 배포 시 site 안의 모델과 계산기는 방문자가 접근할 수 있습니다.
+저장소를 Netlify에 연결하는 경우 배포 폴더는 `site`, 빌드 명령은 비워 둡니다. 저장소 전체를 배포할 필요가 없습니다. 공개 웹 배포 시 site 안의 모델과 계산기는 방문자가 접근할 수 있습니다.
 
 ## 로컬에서 확인
 

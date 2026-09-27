@@ -1,47 +1,35 @@
-# Battery Design Files
+# AI와 함께 설계한 Formula EV 배터리
 
-**Molicel P45B · 70S6P · 14S6P 세그먼트 5개 · 총 420셀**
+직접 만든 계산기로 배터리 구성을 비교하고, 실물 프로젝트에서 얻은 조립·정비 조건을 다음 시즌 3D 설계로 확장한 포트폴리오입니다. AI는 계산 도구 제작과 설계 반복을 도왔고, 설계 선택과 실물 점검은 지원자가 수행했습니다.
 
-Formula Student 전기차용 배터리팩의 전기적 구성과 기계 패키징을 검토하는 설계 프로젝트입니다. 직접 만든 계산기를 바탕으로 세그먼트, 배터리박스, 전장품 배치와 조립·분해 구조를 정리했습니다. 현재 자료는 **후속 설계 초안**이며 제작·시험 완료품을 뜻하지 않습니다.
+## 심사 자료 · 이 순서로 보세요
 
-## 처음 방문했다면
-
-1. [설계 과정과 주요 수치](docs/DESIGN.md)를 읽습니다.
-2. [모델 보는 방법](docs/VIEWER.md)에 따라 웹 뷰어를 엽니다. Segment → Battery Box → Description 순서로 보면 전체 구성을 이해하기 쉽습니다.
-3. [직접 만든 Excel 계산기](site/documents/battery-pack-calculator.xlsx)와 [검증 범위](docs/VALIDATION.md)를 확인합니다.
-4. 지원 포트폴리오가 필요하면 [기존 발표자료](archive/previous-portfolio/portfolio/application/SK_Hynix_AI_Hackathon_Battery_Portfolio_v39_FinalReviewed.pptx)를 참고합니다.
-
-**과거 실물 프로젝트(50S·24S12P)와 현재 P45B·70S6P 설계는 다릅니다. 과거 검차 결과를 현재 모델의 검증 결과로 해석하지 마세요.**
-
-## 필요한 파일 찾기
-
-| 경로 | 용도 | 상태 |
+| 순서 | 자료 | 확인할 내용 |
 |---|---|---|
-| [site/](site/) | 최신 통합 웹 뷰어: 세그먼트·박스·차량 프레임·설계 설명 | 최신 배포본 |
-| [downloads/](downloads/) | Netlify에 한 번에 올릴 ZIP | 최신 배포본 |
-| [docs/](docs/) | 설계 개요, 실행 방법, 검증 범위 | 최신 안내 |
-| [archive/previous-portfolio/](archive/previous-portfolio/) | 이전 CAD/STL, 부품표, 발표자료, 과거 미리보기 | 이력·참고 자료 |
+| 1 | **[발표자료 다운로드](materials/Battery-Portfolio.pptx)** | 문제 발견 → 설계·제작 → 고장 진단·검차 과정 |
+| 2 | **[Excel 계산기](site/documents/battery-pack-calculator.xlsx)** · [계산 근거](docs/CALCULATOR.md) | 셀·직병렬 후보를 전압, 용량, 에너지, 질량으로 비교 |
+| 3 | **[후속 설계 요약](docs/DESIGN.md)** · [3D 모델 열기](docs/VIEWER.md) | 세그먼트와 전장품 배치, 전력 경로, 조립·분해 검토 |
 
-```text
-battery-segment-14s6p/
-├── README.md
-├── docs/                      # 처음 읽을 설명 문서
-├── site/
-│   ├── index.html             # Battery Design Files 시작 화면
-│   ├── assets/                # 화면과 뷰어 동작
-│   ├── data/                  # 압축 모델 데이터: 모두 함께 유지
-│   └── documents/             # 설계 계산기
-├── downloads/
-│   └── Battery-Design-Files-Netlify.zip
-└── archive/previous-portfolio/ # 이전 자료; 최신 제작 도면 아님
-```
+## 실물 경험에서 후속 설계로
 
-## 웹으로 열기
+| 구분 | 발표자료의 실물 프로젝트 | 현재 3D 설계 |
+|---|---|---|
+| 셀·구성 | Samsung 50S · 24S12P · 288셀 | Molicel P45B · 70S6P · 420셀 |
+| 목적 | 배터리 문제 해결·제작·진단 | 14S6P × 5개 세그먼트와 2층 패키징 검토 |
+| 근거·상태 | 제작 및 검차 결과는 발표자료에 제시 | 배치·정비성 검토 초안, 제작·시험 미완료 |
 
-[Netlify 업로드 ZIP](downloads/Battery-Design-Files-Netlify.zip)을 내려받아 Netlify Drop에 올리거나, 저장소 연동 시 빌드 명령 없이 `site`를 배포 폴더로 지정하세요. 아직 확정된 배포 주소는 없습니다.
+후속 설계에서는 인접 단자 연결, 커넥터 탈착 공간, 전장품 접근과 분해 순서를 함께 검토했습니다. **과거 검차 결과는 현재 70S6P 모델의 검증 결과가 아닙니다.** [확인 범위와 남은 검토](docs/VALIDATION.md)
 
-GitHub 파일 화면에서는 HTML이 실행되지 않습니다. 로컬 실행 방법은 [뷰어 안내](docs/VIEWER.md)를 확인하세요. 저장소는 기존 비공개 설정을 유지하며, 저장소 자료를 보려면 접근 권한이 필요합니다.
+<details>
+<summary>파일 위치와 실행 안내</summary>
 
-## 부품 자료를 볼 때
+- `materials/`: 발표자료
+- `docs/`: 설계·계산 근거와 검토 안내
+- `site/`: 최신 통합 3D 뷰어 및 계산기
+- `downloads/`: [Netlify 업로드 ZIP](downloads/Battery-Design-Files-Netlify.zip)
 
-최신 부품 구분은 웹 뷰어의 조립체별 표시 메뉴를 기준으로 보세요. [이전 부품표](archive/previous-portfolio/portfolio/documents/PARTS.md)와 [이전 CAD](archive/previous-portfolio/portfolio/cad/)는 이력 보존 자료입니다. 최신 웹 형상과 일치하는 제조용 BOM·CAD로 재검증된 자료가 아닙니다.
+GitHub에서는 HTML을 직접 실행하지 않습니다. [실행 안내](docs/VIEWER.md)를 참고하세요. 비공개 저장소이므로 심사위원에게는 접근 권한 또는 별도로 배포한 웹 주소가 필요합니다.
+
+이전 버전의 CAD·미리보기·부품표는 현재 목록에서 제외했으며 Git 이력에 보존되어 있습니다.
+
+</details>
